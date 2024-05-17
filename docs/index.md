@@ -5,24 +5,24 @@ hide:
 
 # Workshop Introduction
 
-Most of the forms we complete nowadays are online but there are still times when we need to complete paper-based forms. There are plenty of examples, for this workshop, we've chosen a patient registration for a doctor's surgery as it's something we've all had to do at some point.
+Most of the forms we complete nowadays are online but there are still times when we need to complete paper-based forms. There are plenty of examples, for this workshop, we've chosen patient registration for a doctor's surgery as it's something we've all had to do at some point.
 
 ## Workshop problem statement
 
 This solution aims to address data issues that creep in with paper-based systems, plus the overhead associated with entering the new patient information into the surgery system.
 
-For this doctor's surgery, patient registration is still a paper-based process and will continue to be so for the foreseeable future. The surgery wants to improve the patient experience by automating the paper based registration process.
+For this doctor's surgery, patient registration is still a paper-based process and will continue to be so for the foreseeable future. The surgery wants to improve the patient experience by automating the paper-based registration process.
 
 ## Workshop goals
 
 The goal of this workshop is for you to learn how to infuse AI technologies into a web based patient registration system.
 
-1. The workshop solution is a simplified version of a real-world scenario, simple enough to be completed in a workshop but complex enough to demonstrate the power of AI technologies.
+1. The workshop solution is a simplified version of a real-world scenario, simple enough to be completed in a workshop but complex enough to show the power of AI technologies.
 1. The workshop provides a step-by-step guide, taking you through the process of deploying the solution to Azure. You'll learn a little about Azure Static Web Apps, Azure Functions, Azure AI Services, Azure Storage, and Azure Cosmos DB.
 
 ## Introduction to Azure AI Document Intelligence
 
-The solution will build on Azure AI Document Intelligence. Azure AI Document Intelligence is a service that uses machine learning to extract text and table data from form documents. You can train custom models to extract data specific to your forms, or use the prebuilt models to extract common fields from receipts, invoices, and business cards.
+The solution will build on Azure AI Document Intelligence. Azure AI Document Intelligence is a service that uses machine learning to extract text and table data from form documents. You can train custom models to extract data specific to your forms or use the prebuilt models to extract common fields from receipts, invoices, and business cards.
 
 ## Workshop Personas
 

@@ -9,7 +9,7 @@ This topic describes how to upload your training data to [Document Intelligence 
 
 ## New patient registration form
 
-In this workshop, you'll create a _custom template model_ to recognize the fields in the new patient registration form. There are six forms in the training set, and each form contains the same fields, five of these forms have been labeled, the sixth form is partially labeled. As part of this workshop, you'll finish labeling the sixth form.
+In this workshop, you'll create a _custom template model_ to recognize the fields in the new patient registration form. There are six forms in the training set, and each form has the same fields, five of these forms have been labeled, the sixth form is partially labeled. As part of this workshop, you'll finish labeling the sixth form.
 
 This workshop includes a _New Patient Registration Form_ and matching label data you need to upload to an Azure storage container.
 
@@ -66,11 +66,6 @@ Upload the *New Patient Registration Form* and matching label data to the storag
 6. On the **trainingdata** page, select **Upload**.
 7. On the **Upload blob** page, select **Browse for files**.
 8. From the **file manager** dialog, select **all** the files from the `workshop/training_labeled/assets/english` folder you cloned to your computer.
-
-    !!! note
-
-        The new patient registration form has been localized into several languages. Select the folder that matches the language you want to use for the workshop.
-
 9. Select **Open**.
 10. Select **Upload**.
 11. Close the **Upload blob** dialog.

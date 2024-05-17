@@ -5,7 +5,7 @@ hide:
 
 # Resources
 
-The following Azure resources are used in this workshop.
+The following Azure services are used in this workshop.
 
 - [Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/?WT.mc_id=aiml-77396-cxa){target=_blank}
 - [Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=aiml-77396-cxa){target=_blank}

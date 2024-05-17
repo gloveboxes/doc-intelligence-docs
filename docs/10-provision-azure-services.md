@@ -5,7 +5,7 @@ hide:
 
 # Provision Azure services
 
-The following services will be created in the lab Azure subscription:
+The following services will be provisioned in the lab Azure subscription:
 
 1. [Azure AI Document Intelligence](https://azure.microsoft.com/products/ai-services/ai-document-intelligence?WT.mc_id=aiml-77396-cxa){target=_blank}.
 1. [Azure Cosmos DB](https://learn.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=aiml-77396-cxa){target=_blank}.
@@ -46,7 +46,7 @@ From the terminal window, run the following commands to create the Azure Patient
 
         It will take approximately 5 minutes to deploy the Azure services. So, now is a great time to read the next sections of the workshop documentation.
 
-1. The output from the `azd up` command will look similar to the following.
+1. The output from the `azd up` command will look like the following.
 
     ```text
     Packaging services (azd package)

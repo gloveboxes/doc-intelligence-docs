@@ -18,7 +18,7 @@ With your training forms labeled, you're now ready to train your model. Follow t
 
     ![Train model dialog](./img/train-model-dialog.png)
 
-1. Select **Train** to initiate the training process. 
+1. Select **Train** to start the training process. 
 1. Select **Go to Models** to navigate to the *Models* menu to view the status of the train operation.
 1. You may need to select `refresh` to see latest status of the train operation.
 
