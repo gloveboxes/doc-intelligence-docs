@@ -1,9 +1,9 @@
-# Prompt Flow Demo Docs
+# Azure AI Document Intelligent Workshop
 
-Published at [Prompt Flow Demo/Workshop](https://gloveboxes.github.io/prompt_flow_demo_docs/)
+Published at [Azure AI Document Intelligent Workshop](https://gloveboxes.github.io/doc-intelligence-docs/)
 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
@@ -17,4 +17,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        ...       # Other markdown pages, images and other files. -->
