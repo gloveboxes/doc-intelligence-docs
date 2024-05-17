@@ -1,0 +1,65 @@
+site_name: Azure AI Document Intelligence
+
+nav:
+  - Workshop Introduction: index.md
+  - Provision Azure Services: 10-provision-azure-services.md
+  - Document Intelligence Studio: 20-intro-document-intelligence.md
+  - Upload Training Data: 30-upload-training-data.md
+  - Create a Studio Project: 40-create-project.md
+  - Label Forms Fields: 50-label-data.md
+  - Train Model: 50-train-model.md
+  - Patient Web App: 60-intro-static-web-apps.md
+  - App Integration: 70-integrate-ai.md
+  - Test Web App: 80-upload-doc.md
+  - Understanding Web Roles: 90-static-web-app-roles.md
+  - Add a Web Roles: 100-add-roles.md
+  - Workshop Summary: 110-summary.md
+  - Resources: 120-resources.md
+
+
+  # - Attendees: attendee.md
+  # - Playground: playground.md
+  # - SDKs: sdk.md
+  # - Deployment: deployment.md
+  # - FAQ: faq.md
+
+plugins:
+  - glightbox
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.footer
+
+  # Change Font: https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/?h=fonts
+  # Google Fonts Supported By Default: https://fonts.google.com/
+  font:
+    code: Roboto Mono #Monospaced
+    text: Roboto #Regular
+  # logo: docs/media/azure-ai-studio.svg
+  palette:
+    - scheme: default  # Light Mode
+      primary: black
+      accent: pink
+      toggle:
+        icon: material/brightness-2
+        name: Switch to dark mode
+    - scheme: slate # Dark Mode
+      primary: amber
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  # - pymdownx.emoji:
+      # emoji_index: !!python/name:material.extensions.emoji.twemoji
+      # emoji_generator: !!python/name:material.extensions.emoji.to_svg
