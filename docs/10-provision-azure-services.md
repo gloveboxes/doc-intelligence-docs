@@ -98,4 +98,4 @@ From the terminal window, run the following commands to create the Azure Patient
     Storage account: storagexxxxxxxxxxx
     ```
 
-1. Leave VS Code Codespace open, as you'll need it in the next section of the workshop.
+1. Leave VS Code open, as you'll need it in the next section of the workshop.
