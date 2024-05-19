@@ -7,6 +7,10 @@ hide:
 
 Most of the forms we complete nowadays are online but there are still times when we need to complete paper-based forms. There are plenty of examples, for this workshop, we've chosen patient registration for a doctor's surgery as it's something we've all had to do at some point.
 
+## Workshop navigation
+
+You can navigate the workshop using the table of contents on the left-hand side of the page and the next and previous links at the bottom of each page.
+
 ## Workshop problem statement
 
 This solution aims to address data issues that creep in with paper-based systems, plus the overhead associated with entering the new patient information into the surgery system.
