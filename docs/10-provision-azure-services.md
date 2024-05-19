@@ -60,7 +60,7 @@ From the terminal window, run the following commands to create the Azure Patient
 
     !!! note
 
-        It will take approximately 5 minutes to deploy the Azure services. So, now is a great time to read the next sections of the workshop documentation.
+        It will take approximately 5 minutes to deploy the Azure services. So, now is a great time to read the next sections of the workshop documentation while you wait for the services to deploy.
 
 1. The output from the `azd up` command will look like the following.
 

@@ -9,9 +9,9 @@ This topic describes how to upload your training data to [Document Intelligence 
 
 ## New patient registration form
 
-In this workshop, you'll create a _custom template model_ to recognize the fields in the new patient registration form. There are six forms in the training set, and each form has the same fields, five of these forms have been labeled, the sixth form is partially labeled. As part of this workshop, you'll finish labeling the sixth form.
+In this workshop, you'll create a **custom template model** to recognize the fields in the new patient registration form. There are six forms in the training set, and each form has the same fields, five of these forms have been labeled, the sixth form is partially labeled. As part of this workshop, you'll finish labeling the sixth form.
 
-This workshop includes a _New Patient Registration Form_ and matching label data you need to upload to an Azure storage container.
+This workshop includes a **New Patient Registration Form** and matching label data you need to upload to an Azure storage container.
 
 The label data describes the location of the fields on the forms and was created for the workshop using Document Intelligence Studio. The label data is in a JSON file that is named the same as the form file. For example, the label data for the form named `form1.pdf` is in the file named `form1.pdf.json`. The label data is in the same folder as the form files.
 
