@@ -19,7 +19,7 @@ The following services will be provisioned in the lab Azure subscription:
     git clone https://github.com/Azure-Samples/azure-doc-intelligence-dynamic-models-patient.git workshop
     ```
 
-2. Open the workshop folder in VS Code.
+2. Open the workshop folder in VS Code (File -> Open Folder), or from a terminal window, by running the following command.
 
     ```bash
     cd workshop
