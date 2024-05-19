@@ -30,12 +30,10 @@ Static Web Apps use a JSON config file to enforce role-based access control (RBA
       "rewrite": "/index.html"
     },
     "routes": [
-      // highlight-start
       {
         "route": "/surgery/admin",
         "allowedRoles": ["admin"]
       }
-      // highlight-end
     ],
     "platform": {
       "apiRuntime": "dotnet:6.0"
@@ -73,7 +71,6 @@ We can also add access control to the API routes, found in the `/api` path, and 
       "route": "/api/new-patient/*",
       "allowedRoles": ["anonymous"]
     },
-    // highlight-start
     {
       "route": "/api/patient/*",
       "allowedRoles": ["authenticated"]
@@ -82,7 +79,6 @@ We can also add access control to the API routes, found in the `/api` path, and 
       "route": "/api/surgery/*",
       "allowedRoles": ["authenticated"]
     }
-    // highlight-end
   ],
   "platform": {
     "apiRuntime": "dotnet:6.0"

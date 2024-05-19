@@ -7,7 +7,7 @@ hide:
 
 The Document Intelligence Studio provides and orchestrates all the API calls needed to complete your dataset and train your model.
 
-1. Start by navigating to [Document Intelligence Studio](https://formrecognizer.appliedai.azure.com/studio).
+1. Start by navigating to [Document Intelligence Studio](https://formrecognizer.appliedai.azure.com/studio){target=_blank}.
 
 1. Select the **Custom models** tile, on the custom models page.
 
@@ -46,6 +46,6 @@ The Document Intelligence Studio provides and orchestrates all the API calls nee
 
 The Document Intelligence service will now be created and configured. Once the service is created, the Studio will open the project and display the **Label data** page along with the first pre-labeled document. 
 
-Close the **Upload a document** dialogue as you have already uploaded the documents to the Azure Storage account used by this Document Intelligence project.
+<!-- Close the **Upload a document** dialogue as you have already uploaded the documents to the Azure Storage account used by this Document Intelligence project. -->
 
 ![The image shows the first form](./img/first_pre_labeled_form.png)

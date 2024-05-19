@@ -5,7 +5,7 @@ hide:
 
 # Label your data
 
-In your project, there are five documents, four of the documents have a green dot to indicate the documents have been analyzed and labeled. The fifth document needs to be analyzed and labeled.
+In your project, there are six documents, five of the documents have a green dot to indicate the documents have been analyzed and labeled. The fifth document needs to be analyzed and labeled.
 
 ## Video introduction to labeling forms with Azure AI Document Intelligence
 

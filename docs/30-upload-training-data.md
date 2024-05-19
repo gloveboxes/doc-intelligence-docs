@@ -62,7 +62,7 @@ Upload the *New Patient Registration Form* and matching label data to the storag
 2. From the Azure Portal `burger menu`, select `All services`, then select `Storage accounts` to find your storage account.
 3. Select the storage account created in the previous step. The name starts with **storage**.
 4. From the **Storage account** page, select **Containers** from the left-hand menu.
-5. Select the `trainingdata` container
+5. Select the **trainingdata** container
 6. On the **trainingdata** page, select **Upload**.
 7. On the **Upload blob** page, select **Browse for files**.
 8. From the **file manager** dialog, select **all** the files from the `workshop/training_labeled/assets/english` folder you cloned to your computer.
