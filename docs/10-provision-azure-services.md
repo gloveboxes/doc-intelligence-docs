@@ -13,7 +13,7 @@ The following services will be provisioned in the lab Azure subscription:
 
 ## Open the workshop with VS Code
 
-1. If you are completing this workshop at BUILD, the workshop assets are located in the `c:\workshop` folder. If the workshop assets are not located in the `c:\workshop` folder, you can clone the workshop assets from the GitHub repository by running the following command.
+1. If you are completing this workshop at BUILD, the workshop assets are located in the `c:\workshop` folder. If the workshop assets are not located in the `c:\workshop` folder, then clone the workshop from GitHub by running the following command.
 
     ```bash
     git clone https://github.com/Azure-Samples/azure-doc-intelligence-dynamic-models-patient.git workshop
