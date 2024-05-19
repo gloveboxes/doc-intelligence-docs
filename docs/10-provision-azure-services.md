@@ -11,6 +11,21 @@ The following services will be provisioned in the lab Azure subscription:
 1. [Azure Cosmos DB](https://learn.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=aiml-77396-cxa){target=_blank}.
 1. [Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/?WT.mc_id=aiml-77396-cxa){target=_blank}.
 
+## Open the workshop with VS Code
+
+1. If you are completing this workshop at BUILD, the workshop assets are located in the `c:\workshop` directory. If the workshop assets are not located in the `c:\workshop` directory, you can clone the workshop assets from the GitHub repository by running the following command.
+
+    ```bash
+    git clone https://github.com/Azure-Samples/azure-doc-intelligence-dynamic-models-patient.git workshop
+    ```
+
+2. Open the workshop folder in VS Code.
+
+    ```bash
+    cd workshop
+    code .
+    ```
+
 ## Open a terminal window in VS Code
 
 From VS Code, select <kbd>Ctrl+Shift+`</kbd> to open a new terminal window.
