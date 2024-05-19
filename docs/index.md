@@ -9,7 +9,7 @@ Most of the forms we complete nowadays are online but there are still times when
 
 ## Workshop navigation
 
-You can navigate the workshop documentation using the table of contents on the left-hand side of the page, or the hamburger menu if the page is collapsed. Alternately, you can use the next and previous links at the bottom of each page.
+You can navigate the workshop documentation using the table of contents on the left-hand side of the page, or the hamburger menu if it is visible. Alternately, you can use the next and previous links at the bottom of each page.
 
 ## Workshop problem statement
 
