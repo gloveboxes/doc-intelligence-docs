@@ -22,5 +22,3 @@ The following steps will show you how to label your data.
 3. The form will be displayed in the document viewer. In the interests of time, most of the fields in the form have already been labeled. You need to label the remaining fields in the form.
 4. Select  **Smith**, then from the list of labels, select `family_name`.
 5. Select **Alex**, then from the list of labels, select `given_names`.
-
-    You can filter the list of labels by typing the label name in the list of labels dropdown. For example, if you type **family** in the list of labels, the **family_name** label will be displayed.
