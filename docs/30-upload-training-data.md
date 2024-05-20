@@ -56,7 +56,7 @@ CORS should now be configured to use the storage account from Document Intellige
 
 ## Upload new patient registration form training data
 
-Upload the *New Patient Registration Form* and matching label data to the storage container that you created in the previous step.
+Upload the **New Patient Registration Form** and matching label data to the storage container that you created in the previous step.
 
 1. Open the Microsoft Edge browser.
 1. Navigate to the `https://portal.azure.com` and sign in.

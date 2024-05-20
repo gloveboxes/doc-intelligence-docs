@@ -31,7 +31,7 @@ With your training forms labeled, you're now ready to train your model. Follow t
 Once the model training is complete, you can test your model by selecting the model on the models list page.
 
 1. Select **Test** from the Document Intelligence Studio menu.
-1. Browse for a file or drag and drop a file into the *Test model* page. Select a .jpeg or .pdf file from the **/workshop/assets/training_labeled** folder that matches the language you used to train your model.
+1. Browse for a file or drag and drop a file into the **Test model** page. Select a .jpeg or .pdf file from the **/workshop/assets/training_labeled** folder that matches the language you used to train your model.
 1. With a file selected, choose the **Run analysis** option to test the model.
 1. The model results are displayed in the main window and the fields extracted are listed in the right navigation bar on the **fields** tab.
 1. Validate your model by evaluating the results for each field.

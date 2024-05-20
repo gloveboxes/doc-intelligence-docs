@@ -28,7 +28,7 @@ Create two invitations for the Contoso Healthcare app. One invitation for the ad
 1. You should have the Azure Portal open in a browser tab from the previous step. If you don't, navigate to the [Azure portal](https://portal.azure.com) and sign in.
 1. From the Azure portal, ensure you are in the correct subscription and resource group for this workshop.
 1. Select the Static Web App, the name starts with **swa-**.
-1. Under _Settings_, click on **Role Management**.
+1. Under **Settings**, click on **Role Management**.
 1. Select **Invite**.
 
 #### Invite an admin
@@ -40,7 +40,7 @@ From the **Create invitation** dialog, enter the following values:
     - **Email**: Enter the email address used to authenticate to the Azure Portal.
     - **Role**: admin
 1. Select **Generate**.
-1. Copy the link from the _Invite link_ box.
+1. Copy the link from the **Invite link** box.
 1. If the link is for you, then paste the link into your browser and follow the instructions to accept the invitation. If the link is for someone else, then send the link to the recipient for them to accept the invitation.
 1. Close the **Create invitation** dialog in the Azure Portal.
 
@@ -55,6 +55,6 @@ For the nurse role, you can use your GitHub account or Twitter account.
     - **Username**: Enter the username used to authenticate to the GitHub or Twitter account.
     - **Role**: nurse
 1. Click the **Generate** button.
-1. Copy the link from the _Invite link_ box.
+1. Copy the link from the **Invite link** box.
 1. If the link is for you, then paste the link into your browser and follow the instructions to accept the invitation. If the link is for someone else, then send the link to the recipient for them to accept the invitation.
 1. Close the **Create invitation** dialog in the Azure Portal.
