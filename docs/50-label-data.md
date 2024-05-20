@@ -28,8 +28,8 @@ The following steps will show you how to label your data.
 1. Select the document named _Complete_Me.pdf_.
 2. Normally, you'd select **Run layout** but this document has already been analyzed, so the option is not available.
 3. The form will be displayed in the document viewer. In the interests of time, most of the fields in the form have already been labeled. You need to label the remaining fields in the form.
-4. Select  _Smith_, then from the list of labels, select **family_name**.
-5. Select _Alex_, then from the list of labels, select **given_names**.
+4. Select  `Smith`, then from the list of labels, select **family_name**.
+5. Select `Alex`, then from the list of labels, select **given_names**.
 <!-- 4. Now repeat this labeling process for all the fields in the document. See the tables below for the list of form fields and their associated labels for:
 
     - [English Labels](#english-labels),
@@ -37,7 +37,7 @@ The following steps will show you how to label your data.
     - [Etiquetas Portuguêsas ](#etiquetas-portuguêsas), and
     - [普通话标签](#普通话标签). -->
 
-    You can filter the list of labels by typing the label name in the list of labels dropdown. For example, if you type `family` in the list of labels, the `family_name` label will be displayed.
+    You can filter the list of labels by typing the label name in the list of labels dropdown. For example, if you type **family** in the list of labels, the **family_name** label will be displayed.
 
 <!-- The following tables show the labels that are available for the new patient registration form for the following languages:
 

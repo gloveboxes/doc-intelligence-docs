@@ -14,15 +14,7 @@ In this section, we're going integrate the Document Intelligence Model with our 
 1. Scroll down to the **// TODO: Call Azure AI Document Intelligence** section.
 1. Replace the **// TODO comment and throw** statement with the following code
 
-```PowerShell-linenums
-
- $processes = Get-Process
- $sorted = $processes | Sort-Object -Property WS -Descending
- $sorted | Select-Object -First 5
-
-```
-
-```csharp
+    ```csharp
 
     string? endpoint = Environment.GetEnvironmentVariable("FORM_RECOGNIZER_ENDPOINT");
     string? apiKey = Environment.GetEnvironmentVariable("FORM_RECOGNIZER_API_KEY");
@@ -51,7 +43,7 @@ In this section, we're going integrate the Document Intelligence Model with our 
 
     return outputs;
 
-```
+    ```
 
 1. You must **Save** the file.
 
@@ -71,7 +63,7 @@ if (string.IsNullOrEmpty(endpoint) || string.IsNullOrEmpty(apiKey) || string.IsN
 }
 ```
 
-This first piece of code is retrieving the environment variables that contain the keys and other secret information for Azure AI Document Intelligence, avoiding us from hard-coding them into the code. We've also got some `null` checking, to ensure that we have set the values.
+This first piece of code is retrieving the environment variables that contain the keys and other secret information for Azure AI Document Intelligence, avoiding us from hard-coding them into the code. We've also got some **null** checking, to ensure that we have set the values.
 
 ```csharp
 var credential = new AzureKeyCredential(apiKey);
@@ -108,8 +100,10 @@ Deploy the app to Azure Static Web Apps with the Azure Developer CLI.
 1. From VS Code, select <kbd>Ctrl+Shift+`</kbd> to open a new terminal.
 1. From the terminal, run the following command to start the function app. This command takes about one minute to deploy the updated function to Azure.
 
-   ```
+   ```Shell
+
    azd deploy
+   
    ```
 
 ## Open the patient registration app in your browser

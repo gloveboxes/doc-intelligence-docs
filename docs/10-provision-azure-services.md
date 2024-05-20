@@ -16,7 +16,7 @@ The following services will be provisioned in the lab Azure subscription:
 1. If you are completing this workshop at BUILD, the workshop assets are located in the **C:\Workshop** folder.
 2. Open the workshop folder in VS Code (File -> Open Folder), or from a terminal window, by running the following command.
 
-    ```
+    ```Shell
     cd \Workshop
     code .
     ```
@@ -37,7 +37,7 @@ From the terminal window, run the following commands to create the Azure Patient
 
 1. Run the following command to authenticate to Azure.
 
-    ```
+    ```Shell
     azd auth login
     ```
 
@@ -50,13 +50,13 @@ From the terminal window, run the following commands to create the Azure Patient
 
     Initialize your Azure environment with the following command.
 
-    ```
+    ```Shell
     azd init
     ```
 
 1. Deploy the Azure services with the following command.
 
-    ```
+    ```Shell
     azd up
     ```
 
@@ -67,7 +67,7 @@ From the terminal window, run the following commands to create the Azure Patient
 
 1. The output from the `azd up` command will look like the following.
 
-    ```text
+    ```Text
     Packaging services (azd package)
 
     (✓) Done: Packaging service api
@@ -97,7 +97,7 @@ From the terminal window, run the following commands to create the Azure Patient
 
 1. Make a note of your `Resource group` and `Storage account` names, as you'll need them in the next section of the workshop.
 
-    ```
+    ```Text
     Resource group: rg-contoso-health-app-NNNNNN
     Storage account: storagexxxxxxxxxxx
     ```

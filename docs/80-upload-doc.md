@@ -22,8 +22,8 @@ Use the `workshop/assets/forms/new_patient_information_english.pdf` document tha
 
 ## Edit the form using the Edge browser
 
-1. Navigate to the `workshop/assets/forms` folder.
-1. Right mouse click the `new_patient_information_english.pdf` file and open with the Microsoft Edge browser.
+1. Navigate to the **workshop/assets/forms** folder.
+1. Right mouse click the **new_patient_information_english.pdf** file and open with the Microsoft Edge browser.
 1. Select the **Add text** tool in the browser.
 1. Complete the form by adding your family name and given names.
 1. Select the **Save icon** to save the file.
