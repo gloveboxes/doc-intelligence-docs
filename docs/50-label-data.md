@@ -26,7 +26,7 @@ The following steps will show you how to label your data.
 <!-- The document language will match the folder of documents you uploaded to your Azure Storage Account. For example, if you uploaded the English folder, the document language will be English. -->
 
 1. Select the document named _Complete_Me.pdf_.
-2. Select `Run layout` the document will analyze and then open the document for labeling.
+2. Normally, you'd select **Run layout** but this document has already been analyzed, so the option is not available.
 3. The form will be displayed in the document viewer. In the interests of time, most of the fields in the form have already been labeled. You need to label the remaining fields in the form.
 4. Select  _Smith_, then from the list of labels, select **family_name**.
 5. Select _Alex_, then from the list of labels, select **given_names**.
@@ -36,8 +36,6 @@ The following steps will show you how to label your data.
     - [Etiquetas Españolas](#etiquetas-españolas),
     - [Etiquetas Portuguêsas ](#etiquetas-portuguêsas), and
     - [普通话标签](#普通话标签). -->
-
-!!! note
 
     You can filter the list of labels by typing the label name in the list of labels dropdown. For example, if you type `family` in the list of labels, the `family_name` label will be displayed.
 

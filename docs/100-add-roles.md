@@ -17,9 +17,7 @@ The patient registration app has several routes that are only accessible to user
 
 Static Web Apps use a JSON config file to enforce role-based access control (RBAC) on routes. The `staticwebapp.config.json` file is in the root of the application, in the `src/web` folder. With this file, you can specify which roles are allowed to access specific routes, both for the web front end and the API.
 
-!!! note
-
-    Access control rules are applied in a top-down fashion. The first matching rule is applied, and the rest are ignored, so the order of the rules matters.
+Access control rules are applied in a top-down fashion. The first matching rule is applied, and the rest are ignored, so the order of the rules matters.
 
 1. Open `staticwebapp.config.json` in the `src/web` folder.
 1. Locate the `routes` section and add the surgery admin route restriction.
