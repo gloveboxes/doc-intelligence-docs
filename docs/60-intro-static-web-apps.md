@@ -13,4 +13,4 @@ The workflow of Azure Static Web Apps is tailored to a developer's daily workflo
 
 When you create an Azure Static Web Apps resource, Azure interacts directly with GitHub or Azure DevOps to monitor a branch of your choice. Every time you push commits or accept pull requests into the watched branch, a build automatically runs and your app and API are deployed to Azure.
 
-To learn more about Azure Static Web Apps, see the [Azure Static Web Apps documentation](https://docs.microsoft.com/azure/static-web-apps/overview?WT.mc_id=aiml-77396-cxa){target=_blank}.
+To learn more about Azure Static Web Apps, see the [Azure Static Web Apps documentation](https://docs.microsoft.com/azure/static-web-apps/overview?WT.mc_id=aiml-77396-cxa).

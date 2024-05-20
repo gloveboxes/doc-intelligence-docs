@@ -7,7 +7,7 @@ hide:
 
 The Document Intelligence Studio provides and orchestrates all the API calls needed to complete your dataset and train your model.
 
-1. Start by navigating to [Document Intelligence Studio](https://formrecognizer.appliedai.azure.com/studio){target=_blank}.
+1. Start by navigating to [Document Intelligence Studio](https://formrecognizer.appliedai.azure.com/studio).
 
 1. Select the **Custom models** tile, on the custom models page.
 
