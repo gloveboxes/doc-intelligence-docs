@@ -22,7 +22,7 @@ The Document Intelligence Studio provides and orchestrates all the API calls nee
 
     ![The image shows how to enter project details](./img/new_project_wizard.png)
 
-2. On the next page, complete the following steps:
+1. On the next page, complete the following steps:
 
     1. Select your Azure subscription.
     2. Select the resource group whose name starts with **rg-contoso-health-app-NNNNNN**.
@@ -32,7 +32,7 @@ The Document Intelligence Studio provides and orchestrates all the API calls nee
 
     ![Select the Document Intelligence resource](./img/create-service-resources.png)
 
-3. Next, select the storage account where you uploaded your custom model training dataset.
+1. Next, select the storage account where you uploaded your custom model training dataset.
 
     1. Select your Azure subscription.
     2. Select the resource group **rg-contoso-health-app-NNNNNN**.

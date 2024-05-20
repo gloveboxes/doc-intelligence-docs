@@ -13,16 +13,11 @@ The following services will be provisioned in the lab Azure subscription:
 
 ## Open the workshop with VS Code
 
-1. If you are completing this workshop at BUILD, the workshop assets are located in the `c:\workshop` folder. If the workshop assets are not located in the `c:\workshop` folder, then clone the workshop from GitHub by running the following command.
-
-    ```
-    git clone https://github.com/Azure-Samples/azure-doc-intelligence-dynamic-models-patient.git workshop
-    ```
-
+1. If you are completing this workshop at BUILD, the workshop assets are located in the **C:\Workshop\azure-doc-intelligence-dynamic-models-patient** folder.
 2. Open the workshop folder in VS Code (File -> Open Folder), or from a terminal window, by running the following command.
 
     ```
-    cd workshop
+    cd \Workshop\azure-doc-intelligence-dynamic-models-patient
     code .
     ```
 
@@ -34,16 +29,23 @@ From VS Code, select <kbd>Ctrl+Shift+`</kbd> to open a new terminal window.
 
 From the terminal window, run the following commands to create the Azure Patient Registration Services.
 
-1. Authenticate to Azure by running the following command.
+1. Authenticate to Azure. You'll be asked for the Azure **Username** and **Password**. Switch to the **Resources** tab in the lab environment to get the credentials. After you've authenticated, switch back to the Instructions tab.
+
+    ![](./img/lab-resources-tab.png)
+
+    Run the following command to authenticate to Azure.
 
     ```
     azd auth login
     ```
 
+
+    
+    Enter the username and password you used to log in to the Azure portal.
+
 1. Initialize your Azure environment with the following command.
 
-    !!! note
-        You'll be asked to create an environment name. For this workshop, the environment name must be globally unique. Create a unique environment name by appending a random six digital number after **contoso-health-app-NNNNNN**, for example, contoso-health-app-318721. But don't use the example name, use your own.
+    You'll be asked to create an environment name. For this workshop, the environment name must be globally unique. Create a unique environment name by appending a random six digital number after **contoso-health-app-NNNNNN**, for example, contoso-health-app-318721. But don't use the example name, use your own.
 
     ```
     azd init
