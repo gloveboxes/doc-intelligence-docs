@@ -39,13 +39,11 @@ From the terminal window, run the following commands to create the Azure Patient
     azd auth login
     ```
 
-
-    
     Enter the username and password you used to log in to the Azure portal.
 
-1. Initialize your Azure environment with the following command.
+1. Initialize your Azure environment. You'll be asked to create an environment name. For this workshop, the environment name must be globally unique. Create a unique environment name by appending a random six digital number after **contoso-health-app-NNNNNN**, for example, contoso-health-app-318721. But don't use the example name, use your own.
 
-    You'll be asked to create an environment name. For this workshop, the environment name must be globally unique. Create a unique environment name by appending a random six digital number after **contoso-health-app-NNNNNN**, for example, contoso-health-app-318721. But don't use the example name, use your own.
+    Initialize your Azure environment with the following command.
 
     ```
     azd init
@@ -60,9 +58,7 @@ From the terminal window, run the following commands to create the Azure Patient
 1. Select a region (e.g: **eastus**).
 1. Select your subscription.
 
-    !!! note
-
-        It will take approximately 5 minutes to deploy the Azure services. So, now is a great time to read the next sections of the workshop documentation while you wait for the services to deploy.
+    It will take approximately 5 minutes to deploy the Azure services. So, now is a great time to read the next sections of the workshop documentation while you wait for the services to deploy.
 
 1. The output from the `azd up` command will look like the following.
 
