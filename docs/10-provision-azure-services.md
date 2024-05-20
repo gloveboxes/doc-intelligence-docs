@@ -60,8 +60,8 @@ From the terminal window, run the following commands to create the Azure Patient
     azd up
     ```
 
-1. Select a region (e.g: **eastus**).
 1. Select the default subscription.
+1. Select a region (e.g: **eastus**).
 
     It will take approximately 5 minutes to deploy the Azure services. So, now is a great time to read the next sections of the workshop documentation while you wait for the services to deploy.
 
