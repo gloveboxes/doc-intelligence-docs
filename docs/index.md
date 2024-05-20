@@ -11,6 +11,14 @@ Most of the forms we complete nowadays are online but there are still times when
 
 You can navigate the workshop documentation using the table of contents on the left-hand side of the page, or the burger menu if it is visible. Alternately, you can use the next and previous links at the bottom of each page. -->
 
+## Lab Authentication
+
+1. Above the lab Table of Contents, you'll find a **Resources** tab. Switch to the **Resources** tab to get the Windows password for the lab environment.
+1. Click the [T] icon, the password will be typed into the password dialog box.
+1. Switch back to the **Instructions** tab to continue with the lab.
+
+    ![](./img/lab-windows-authorization.png)
+
 ## Workshop problem statement
 
 This solution aims to address data issues that creep in with paper-based systems, plus the overhead associated with entering the new patient information into the surgery system.
