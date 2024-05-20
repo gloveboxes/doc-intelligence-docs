@@ -58,15 +58,16 @@ CORS should now be configured to use the storage account from Document Intellige
 
 Upload the *New Patient Registration Form* and matching label data to the storage container that you created in the previous step.
 
-1. Navigate to the [Azure portal](https://portal.azure.com) and sign in.
-2. From the Azure Portal `burger menu`, select `All services`, then select `Storage accounts` to find your storage account.
-3. Select the storage account created in the previous step. The name starts with **storage**.
-4. From the **Storage account** page, select **Containers** from the left-hand menu.
-5. Select the **trainingdata** container
-6. On the **trainingdata** page, select **Upload**.
-7. On the **Upload blob** page, select **Browse for files**.
-8. From the **file manager** dialog, select **all** the files from the `workshop/training_labeled/assets/english` folder you cloned to your computer.
-9. Select **Open**.
-10. Select **Upload**.
-11. Close the **Upload blob** dialog.
-12. Leave the Azure portal open in a browser tab.
+1. Open the Microsoft Edge browser.
+1. Navigate to the `https://portal.azure.com` and sign in.
+1. From the Azure Portal `burger menu`, select `All services`, then select `Storage accounts` to find your storage account.
+1. Select the storage account created in the previous step. The name starts with **storage**.
+1. From the **Storage account** page, select **Containers** from the left-hand menu.
+1. Select the **trainingdata** container
+1. On the **trainingdata** page, select **Upload**.
+1. On the **Upload blob** page, select **Browse for files**.
+1. From the **file manager** dialog, select **all** the files from the `workshop/training_labeled/assets/english` folder you cloned to your computer.
+1. Select **Open**.
+1. Select **Upload**.
+1. Close the **Upload blob** dialog.
+1. Leave the Azure portal open in a browser tab.
