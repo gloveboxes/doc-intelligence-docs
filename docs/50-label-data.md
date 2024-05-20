@@ -37,7 +37,7 @@ The following steps will show you how to label your data.
     - [Etiquetas Portuguêsas ](#etiquetas-portuguêsas), and
     - [普通话标签](#普通话标签). -->
 
-    You can filter the list of labels by typing the label name in the list of labels dropdown. For example, if you type **family** in the list of labels, the **family_name** label will be displayed.
+    > You can filter the list of labels by typing the label name in the list of labels dropdown. For example, if you type **family** in the list of labels, the **family_name** label will be displayed.
 
 <!-- The following tables show the labels that are available for the new patient registration form for the following languages:
 
