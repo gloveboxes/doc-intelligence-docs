@@ -14,7 +14,16 @@ In this section, we're going integrate the Document Intelligence Model with our 
 1. Scroll down to the **// TODO: Call Azure AI Document Intelligence** section.
 1. Replace the **// TODO comment and throw** statement with the following code
 
-    ```csharp
+```PowerShell-linenums
+
+ $processes = Get-Process
+ $sorted = $processes | Sort-Object -Property WS -Descending
+ $sorted | Select-Object -First 5
+
+```
+
+```csharp
+
     string? endpoint = Environment.GetEnvironmentVariable("FORM_RECOGNIZER_ENDPOINT");
     string? apiKey = Environment.GetEnvironmentVariable("FORM_RECOGNIZER_API_KEY");
     string? modelId = Environment.GetEnvironmentVariable("FORM_RECOGNIZER_MODEL_ID");
@@ -41,7 +50,8 @@ In this section, we're going integrate the Document Intelligence Model with our 
     }
 
     return outputs;
-    ```
+
+```
 
 1. You must **Save** the file.
 
