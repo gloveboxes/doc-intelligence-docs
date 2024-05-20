@@ -15,13 +15,13 @@ The following services will be provisioned in the lab Azure subscription:
 
 1. If you are completing this workshop at BUILD, the workshop assets are located in the `c:\workshop` folder. If the workshop assets are not located in the `c:\workshop` folder, then clone the workshop from GitHub by running the following command.
 
-    ```bash
+    ```
     git clone https://github.com/Azure-Samples/azure-doc-intelligence-dynamic-models-patient.git workshop
     ```
 
 2. Open the workshop folder in VS Code (File -> Open Folder), or from a terminal window, by running the following command.
 
-    ```bash
+    ```
     cd workshop
     code .
     ```
@@ -36,7 +36,7 @@ From the terminal window, run the following commands to create the Azure Patient
 
 1. Authenticate to Azure by running the following command.
 
-    ```bash
+    ```
     azd auth login
     ```
 
@@ -45,13 +45,13 @@ From the terminal window, run the following commands to create the Azure Patient
     !!! note
         You'll be asked to create an environment name. For this workshop, the environment name must be globally unique. **Create a unique environment name by appending a random six digital number after contoso-health-app-NNNNNN, for example, contoso-health-app-318721**. But don't use the example name, use your own.
 
-    ```bash
+    ```
     azd init
     ```
 
 1. Deploy the Azure services with the following command.
 
-    ```bash
+    ```
     azd up
     ```
 
@@ -94,7 +94,7 @@ From the terminal window, run the following commands to create the Azure Patient
 
 1. Make a note of your `Resource group` and `Storage account` names, as you'll need them in the next section of the workshop.
 
-    ```bash
+    ```
     Resource group: rg-contoso-health-app-NNNNNN
     Storage account: storagexxxxxxxxxxx
     ```

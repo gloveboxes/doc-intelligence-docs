@@ -93,7 +93,7 @@ Redeploy the app to Azure Static Web Apps with the Azure Developer CLI.
 1. From VS Code, select `Ctrl+Shift+~` to open a new terminal.
 1. From the terminal, run the following command to start the function app. This command will deploy the updated function to Azure.
 
-   ```bash
+   ```
    azd deploy --service web
    ```
 
