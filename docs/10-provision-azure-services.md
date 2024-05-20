@@ -13,11 +13,11 @@ The following services will be provisioned in the lab Azure subscription:
 
 ## Open the workshop with VS Code
 
-1. If you are completing this workshop at BUILD, the workshop assets are located in the **C:\Workshop\azure-doc-intelligence-dynamic-models-patient** folder.
+1. If you are completing this workshop at BUILD, the workshop assets are located in the **C:\Workshop** folder.
 2. Open the workshop folder in VS Code (File -> Open Folder), or from a terminal window, by running the following command.
 
     ```
-    cd \Workshop\azure-doc-intelligence-dynamic-models-patient
+    cd \Workshop
     code .
     ```
 
