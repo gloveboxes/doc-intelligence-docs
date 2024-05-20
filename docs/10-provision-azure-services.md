@@ -13,36 +13,24 @@ The following services will be provisioned in the lab Azure subscription:
 
 ## Open the workshop with VS Code
 
-1. If you are completing this workshop at BUILD, the workshop assets are located in the **C:\Workshop** folder.
-2. Open the workshop folder in VS Code (File -> Open Folder), or from a terminal window, by running the following command.
-
-    ```Shell
-    cd \Workshop
-    code .
-    ```
-
-## Open a terminal window in VS Code
-
-From the VS Code menu, select **Terminal**, then **New Terminal**.
+1. Start VS Code by selecting the icon from the Windows taskbar.
+2. From VS Code, open the **C:\Workshop** folder.
 
 ## Create the Azure Patient Registration Services
 
-From the terminal window, run the following commands to create the Azure Patient Registration Services.
+We're going to run commands to provision Azure services.
 
-1. Authenticate to Azure.
-
-    You'll be asked for the Azure **Username** and **Password**. Switch to the **Resources** tab in the lab environment to get the credentials. After you've authenticated, switch back to the Instructions tab.
-
-    ![](./img/lab-resources-tab.png)
-
-1. Run the following command to authenticate to Azure.
+1. From the VS Code menu, select **Terminal**, then **New Terminal**.
+1. In the new terminal window, run the following command to authenticate to Azure.
 
     ```Shell
     azd auth login
     ```
 
-1. Select the **Email, phone, or Skype** option in the Sign in dialog.
-1. Enter the username and password you used to log in to the Azure portal.
+1. Switch to the **Resources** tab in the lab environment for the Azure Portal **username** and **password**.
+1. Select the **Email, phone, or Skype** option in the Sign in dialog and select the [T] next to the **Username** field in the **Resources** tab.
+1. Next, select the **Password** field and select the [T] next to the **Password** field in the **Resources** tab.
+1. Switch back to the **Instructions** tab.
 
 1. Initialize your Azure environment.
 
